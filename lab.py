@@ -1,3 +1,3 @@
 myList = ["Ahmed", "Mohammed", "Mona", "Khareem", "Moayed", "Khadeeja", "Salim"]
-specialList = list(filter(lambda lst: lst[0:2] =="Kh" or lst[0:2] =="Mo",myList))
+specialList = list(filter(lambda ele: ele.startswith("Kh") or ele.startswith("Mo"),myList))
 print(specialList)
